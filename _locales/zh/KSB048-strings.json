@@ -1,0 +1,17 @@
+{
+	"KSB048|block": "KSB048",
+	"KSB048.MotorNum.M1A|block": "M1A",
+	"KSB048.MotorNum.M1B|block": "M1B",
+	"KSB048.MotorNum.M2A|block": "M2A",
+	"KSB048.MotorNum.M2B|block": "M2B",
+	"KSB048.LedNum.L_LED|block": "左邊",
+	"KSB048.LedNum.R_LED|block": "右邊",
+	"KSB048.Frq_Set|block": "舵機頻率 設定 %frqval",
+	"KSB048.DETECT_Frequency|block": "偵測舵機 %channel 頻率到IO %iopin",
+	"KSB048.Ultrasonic|block": "超音波測距(公分)",
+	"KSB048.Servo|block": "舵機 %channel|角度 %degree",
+	"KSB048.ServoRange|block": "舵機 %channel|角度 %degree|servomin %servomin|servomax %servomax",
+	"KSB048.Motor|block": "馬達 %channel|速度 %speed"
+	
+	
+}

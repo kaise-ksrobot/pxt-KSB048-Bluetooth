@@ -1,27 +1,19 @@
 {
-    "name": "pxt-ksb048-bluetooth",
-    "version": "0.0.0",
-    "description": "",
+    "name": "KSB048",
+    "version": "0.2.0",
+    "description": "Extension for KAISE KSRobot KSB048 4ch Motor Board",
+    "license": "MIT", 
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
+        "main.ts",
         "README.md",
-        "main.blocks",
-        "main.ts"
+        "_locales/zh/KSB048-strings.json" 
+        
     ],
     "testFiles": [
-        "test.ts"
+      "tests.ts"
     ],
-    "public": true,
-    "targetVersions": {
-        "target": "4.0.17",
-        "targetId": "microbit"
-    },
-    "supportedTargets": [
-        "microbit"
-    ],
-    "preferredEditor": "blocksprj"
+    "public": true
 }
